@@ -62,6 +62,8 @@ sliderによるarm角度の制御は4つを同時に扱うため、<90,90,90,90>
 最初に書いたコード。LEDを点滅させて、機能しているか試す。
 ## [myser.py](https://github.com/brad-127/ogata_b3_robot/blob/main/myser.py)
 シリアル通信ができるインタフェース。キーボードで操作できるが  
-`pip install serial  
-pip install keyboard`  
+```
+pip install serial  
+pip install keyboard
+```
 が必要かもしれない。pipできなかったらpipのパスを通そう。
